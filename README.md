@@ -1,2 +1,4 @@
 # shell-script-examples
-Example shell scripts 
+
+Creating a user and assigning password to the user .
+
