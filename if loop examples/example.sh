@@ -2,4 +2,6 @@
 if test $1 -gt 0 
 then
 echo "$1 number is postivie"
-fi 
+else
+echo "$1 number is not postive"
+fi
