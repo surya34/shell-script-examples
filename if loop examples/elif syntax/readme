@@ -1,0 +1,18 @@
+Syntax:
+           if condition
+           then
+                       condition is zero (true - 0)
+                       execute all commands up to elif statement
+           elif condition1 
+           then
+                       condition1 is zero (true - 0)
+                       execute all commands up to elif statement  
+           elif condition2
+           then
+                       condition2 is zero (true - 0)
+                       execute all commands up to elif statement          
+           else
+                       None of the above condtion,condtion1,condtion2 are true (i.e. 
+                       all of the above nonzero or false)
+                       execute all commands up to fi
+           fi
