@@ -12,4 +12,3 @@ else
  echo "print storage info "
  fi
 fi 
-
