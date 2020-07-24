@@ -33,3 +33,9 @@ Options	Result
 – t	total for RAM + swap
 – s	update every [delay] seconds
 – c	update [count] times
+
+commands to check disk space 
+
+df -h 
+
+https://opensource.com/article/18/7/how-check-free-disk-space-linux 
