@@ -9,6 +9,12 @@ echo "print the memory info"
 free -g
 else
  if [ $# -eq 1 ] ; then 
- echo "print storage info "
+ echo "print cpu info "
+ cat /proc/cpuinfo
+ else
+  if [ $# -eq 2 ] ; then
+  echo "print storage info"
+  df -h 
+  fi
  fi
 fi 
