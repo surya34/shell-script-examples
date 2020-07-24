@@ -4,3 +4,32 @@ Syntax:
                      execute one for each item in the list until the list is
                      not finished (And repeat all statement between do and done)
             done
+
+Commands to Check Memory Use in Linux
+
+cat /proc/meminfo
+
+free in your command terminal provides the following result
+
+total	Total installed memory
+used	Memory currently in use by running processes (used= total – free – buff/cache)
+free	Unused memory (free= total – used – buff/cache)
+shared	Memory shared by multiple processes
+buffers	Memory reserved by the OS to allocate as buffers when process need them
+cached	Recently used files stored in RAM
+buff/cache	Buffers + Cache
+available	Estimation of how much memory is available for starting new applications, without swapping.
+
+
+The free command has multiple options to format the output so that it better matches your requirements. The table below lists the most useful variations of the free command.
+
+Options	Result
+-b	output in bytes
+– k	output in kilobytes
+– m	output in megabytes
+– g	output in gigabytes
+– l	detailed low and high memory statistics
+– o	old format (no -/+buffers/cache line)
+– t	total for RAM + swap
+– s	update every [delay] seconds
+– c	update [count] times
